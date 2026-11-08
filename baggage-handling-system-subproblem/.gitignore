@@ -1,0 +1,6 @@
+# Generated baggage handling system simulation output
+bhs-simulation/dashboard_cache/
+bhs-simulation/experiment_output/
+bhs-simulation/data/simulation_scenario.json
+bhs-simulation/live_bag_telemetry.csv
+bhs-simulation/live_telemetry.csv

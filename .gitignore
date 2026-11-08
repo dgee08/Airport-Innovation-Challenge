@@ -1,0 +1,55 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment/secrets
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs/temp files
+*.log
+logs/
+tmp/
+temp/
+
+# Build/cache outputs
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Playwright/browser test artifacts
+test-results/
+playwright-report/
+
+# Generated air-traffic-control output
+air-traffic-control/starter-kit/advanced/output/
+air-traffic-control/starter-kit/live-tracking/output/
+
+# Generated baggage handling system simulation output
+baggage-handling-system-subproblem/bhs-simulation/dashboard_cache/
+baggage-handling-system-subproblem/bhs-simulation/experiment_output/
+baggage-handling-system-subproblem/bhs-simulation/live_bag_telemetry.csv
+baggage-handling-system-subproblem/bhs-simulation/live_telemetry.csv
+baggage-handling-system-subproblem/bhs-simulation/data/simulation_scenario.json
+
+# Other large output files
+group-check-in-subproblem/unified-identity-gateway/package-lock.json
+mishandled-baggage-subproblem/securebag/bags.json

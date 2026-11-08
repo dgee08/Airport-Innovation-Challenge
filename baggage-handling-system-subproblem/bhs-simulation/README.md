@@ -2,7 +2,7 @@
 
 **Airport Innovation Challenge — Baggage Handling System Subproblem**
 
-![BaggageIQ Dashboard](baggage-handling-system-subproblem\assets\BaggageIQDashboard.png)
+![BaggageIQ Dashboard](assets/BaggageIQDashboard.png)
 
 BaggageIQ is a Python-based simulation and monitoring project that explores how improved routing algorithms and operational analytics can improve airport baggage handling. The project replaces a basic Breadth-First Search (BFS) routing approach with a weighted Dijkstra algorithm that accounts for conveyor congestion, equipment faults, wear, and baggage delivery deadlines.
 

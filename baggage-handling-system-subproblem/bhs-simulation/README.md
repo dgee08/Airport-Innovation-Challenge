@@ -30,9 +30,7 @@ The following results are from the sample comparison output:
 | Congestion | 284 | 149 | 47.5% |
 | Combined Stress | 316 | 193 | 38.9% |
 
-The sample results show fewer reported misrouted bags with the upgraded routing algorithm across all five scenarios. Performance varies under different operating conditions, with the combined-stress scenario presenting the greatest challenge.
-
-*Results are simulation outputs, not measurements from a deployed airport baggage handling system. They should be interpreted in the context of the simulated network, scenario configuration, and experiment settings.*
+The sample results (which are simulated outputs, not real measurements) show fewer reported misrouted bags with the upgraded routing algorithm across all five scenarios. Performance varies under different operating conditions, with the combined-stress scenario presenting the greatest challenge.
 
 ## Key Features
 
@@ -55,7 +53,7 @@ This allows the routing system to evaluate alternatives based on more than simpl
 
 Implemented a rule-based detection mechanism that assigns suspicion scores based on simulated baggage movement patterns.
 
-Detection heuristics include:
+Detection metrics include:
 
 - Unusual cross-terminal routing.
 - Repeated visits to the same nodes.
@@ -115,7 +113,16 @@ These datasets support analysis of:
 - Incident frequency and duration.
 - Differences between baseline and optimized routing.
 
-During our presentation, I used simulation_summary to make Power BI graphs.
+Below are the graphs I created for the presentation, representing the total improvements made by our algorithm.
+
+### Misrouted Bags
+![Misrouted Bags Chart](assets\misroutedbagschart.png)
+
+### Delivery Time
+![Time Chart](assets\timechart.png)
+
+### Conveyor Jams
+![Jams Chart](assets\jamschart.png)
 
 ## Technology Stack
 
